@@ -7,7 +7,7 @@ This guide provides step-by-step instructions for deploying a microservices-base
 Ensure you have the following tools installed:
 - **Minikube** (for local Kubernetes cluster)
 - **kubectl** (Kubernetes CLI tool)
-- **Docker** (optional, for local image builds)
+- **Docker** (for image builds)
 
 ## Minikube Setup
 1. Start Minikube:
