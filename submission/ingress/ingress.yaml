@@ -3,9 +3,9 @@ kind: Ingress
 metadata:
   name: microservices-ingress
 spec:
-  ingressClassName: traefik  # Ensure this is set for Traefik
+  ingressClassName: traefik 
   rules:
-    - host: 23.22.1.13.nip.io  # Your EC2 public IP with nip.io
+    - host: 23.22.1.13.nip.io 
       http:
         paths:
           - path: /api/users
